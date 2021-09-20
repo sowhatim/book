@@ -263,7 +263,7 @@ Rust warns that you haven’t used the `Result` value returned from `read_line`,
 indicating that the program hasn’t handled a possible error.
 
 The right way to suppress the warning is to actually write error handling, but
-because you just want to crash this program when a problem occurs, you can use
+because you just don't want to crash this program when a problem occurs, you can use
 `expect`. You’ll learn about recovering from errors in Chapter 9.
 
 ### Printing Values with `println!` Placeholders
