@@ -58,7 +58,8 @@ the values in order to give back ownership, because we never had ownership.
 
 We call the action of creating a reference *borrowing*. As in real life, if a
 person owns something, you can borrow it from them. When you’re done, you have
-to give it back.
+to give it back but here you don't because you never owned it. The concept is a bit different here,
+so do take a note. 
 
 So what happens if we try to modify something we’re borrowing? Try the code in
 Listing 4-6. Spoiler alert: it doesn’t work!
